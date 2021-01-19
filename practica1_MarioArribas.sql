@@ -3,7 +3,8 @@ create database videoteca;
 use videoteca;
 drop table if exists peliculas;
 create table peliculas(titulo varchar(64),
-director varchar(128), actor varchar(128));
+director varchar(128), 
+actor varchar(128));
 insert into peliculas (titulo, director, actor)
 values ('Blade Runner', 'Ridley Scott', 'Harrison Ford');
 INSERT INTO peliculas (titulo, director, actor)
